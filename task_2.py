@@ -8,3 +8,7 @@
 --- b'class' - используйте маркировку b''
 --- используйте списки и циклы, не дублируйте функции
 """
+
+el_list = [b'class', b'function', b'method']
+for next_el in el_list:
+    print(f'Тип: {type(next_el)}, содержимое: {next_el}, длина: {len(next_el)}')
